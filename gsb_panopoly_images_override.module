@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the GSB Panopoly Images Override feature.
+ */
+
+include_once 'gsb_panopoly_images_override.features.inc';

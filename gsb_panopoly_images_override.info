@@ -1,0 +1,17 @@
+name = GSB Panopoly Images Override
+description = Overrides panopoly images with our settings.
+core = 7.x
+package = GSB
+version = 7.x-1.0
+project = gsb_panopoly_images_override
+dependencies[] = features_override
+dependencies[] = panopoly_images
+features[features_api][] = api:1
+features[features_override_items][] = file_display.image__default__file_image
+features[features_override_items][] = file_display.image__preview__file_image
+features[features_overrides][] = file_display.image__default__file_image.settings|alt
+features[features_overrides][] = file_display.image__default__file_image.settings|image_style
+features[features_overrides][] = file_display.image__default__file_image.settings|title
+features[features_overrides][] = file_display.image__preview__file_image.settings|alt
+features[features_overrides][] = file_display.image__preview__file_image.settings|image_style
+features[features_overrides][] = file_display.image__preview__file_image.settings|title
