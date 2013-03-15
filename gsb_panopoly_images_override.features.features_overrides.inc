@@ -13,10 +13,10 @@ function gsb_panopoly_images_override_features_override_default_overrides() {
 
   // Exported overrides for: file_display
   $overrides["file_display.image__default__file_image.settings|alt"] = '[file:field_file_image_alt_text]';
-  $overrides["file_display.image__default__file_image.settings|image_style"] = 'gsb_image_large';
+  $overrides["file_display.image__default__file_image.settings|image_style"] = '627x367';
   $overrides["file_display.image__default__file_image.settings|title"] = '[file:field_file_image_title_text]';
   $overrides["file_display.image__preview__file_image.settings|alt"] = '[file:field_file_image_alt_text]';
-  $overrides["file_display.image__preview__file_image.settings|image_style"] = 'gsb_image_small';
+  $overrides["file_display.image__preview__file_image.settings|image_style"] = '270x158';
   $overrides["file_display.image__preview__file_image.settings|title"] = '[file:field_file_image_title_text]';
 
  return $overrides;
